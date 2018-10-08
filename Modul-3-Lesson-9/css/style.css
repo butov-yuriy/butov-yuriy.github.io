@@ -1,0 +1,48 @@
+.header{
+	margin: 60px auto;
+	font-size: 20px;
+	font-weight: 900;
+	line-height: 1.5;
+}
+.header span{
+	display: block;
+	font-weight: 100;
+}
+.form{
+	padding: 30px 20px;
+	height: 300px;
+	border: 2px solid #3c3cdd;
+	font-size: 20px;
+	font-weight: 900;
+}
+.video{
+	margin-bottom: 15px;
+}
+.form input{
+	margin-bottom: 12px;
+}
+.form-btn{
+	margin-top: 30px;
+	background-color: #3c3cdd;
+}
+.feature{
+	margin: 60px auto;
+	font-size: 16px;
+	font-weight: 900;
+}
+.feature-header, .clients-header{
+	margin: 60px;
+}
+.feature-box{
+	height: 150px;
+}
+.feature-box p{
+	margin-top: 12px;
+	line-height: 1;
+}
+.bottom-section img{
+	margin-bottom: 35px;
+}
+.bottom-row{
+	margin-bottom: 60px;
+}
