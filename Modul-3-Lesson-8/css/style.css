@@ -1,0 +1,16 @@
+h1{
+	margin: 60px auto;
+}
+
+.item{
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.item img{
+	height: 130px;
+}
+
+.item p{
+	margin-top: 20px;
+}
