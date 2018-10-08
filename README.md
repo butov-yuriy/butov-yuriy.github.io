@@ -15,3 +15,7 @@
 [Урок 9](https://butov-yuriy.github.io/Modul-3-Lesson-9/ "Урок 9") - Верстка шаблона из урока 7 на Bootstrap
 
 [Урок 10](https://github.com/butov-yuriy/butov-yuriy.github.io/tree/master/Modul-3-Lesson-10 "Урок 10") - Переделываем очень УДОБНЫЙ CSS в НЕПОНЯТНЫЙ LESS 
+
+---
+
+[Главная страница TazaHome](https://butov-yuriy.github.io/TazaHome/ "Ссылка на главную страницу TazaHome")
