@@ -18,6 +18,8 @@
 
 [Урок 13](https://butov-yuriy.github.io/Modul-5-Lesson-13/ "Урок 13") - Делаем верстку PixelPerfect
 
+[Урок 13. Практика часть 1](https://butov-yuriy.github.io/Modul-5-lesson-13-Practic/ "Урок 13. Практика часть 1") - Начинаем верстать реальный сайт по шаблону
+
 ---
 
 [Главная страница TazaHome](https://butov-yuriy.github.io/TazaHome/ "Ссылка на главную страницу TazaHome")
