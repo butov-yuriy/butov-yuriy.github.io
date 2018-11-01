@@ -20,6 +20,5 @@
 
 [Урок 13. Практика часть 1](https://butov-yuriy.github.io/Modul-5-lesson-13-Practic/ "Урок 13. Практика часть 1") - Начинаем верстать реальный сайт по шаблону
 
----
+[Урок 14](https://butov-yuriy.github.io/Modul-5-Lesson-14/ "Урок 14") - Учимся подключать шрифты
 
-[Главная страница TazaHome](https://butov-yuriy.github.io/TazaHome/ "Ссылка на главную страницу TazaHome")
