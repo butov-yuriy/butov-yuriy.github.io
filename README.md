@@ -23,3 +23,6 @@
 [Урок 14](https://butov-yuriy.github.io/Modul-5-Lesson-14/ "Урок 14") - Учимся подключать шрифты
 
 [Урок 14. Практика часть 2](https://butov-yuriy.github.io/Modul-5-Lesson-14-Practice/ "Урок 14. Практика часть 2") - Верстаем первый экран
+
+[Урок 15](https://butov-yuriy.github.io/Modul-5-Lesson-15/ "Урок 15") - Изучаем псевдоклассы и псевдоэлементы
+
