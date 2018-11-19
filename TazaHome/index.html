@@ -2,7 +2,9 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
 	<title>TazaHome</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css">
@@ -18,15 +20,19 @@
 		<div class="container">
 			<div class="header-menu">
 				<div class="row">
-					<div class="col-xl-3 col-lg-3">
+					<div class="mob-header-btn">
+						<a class="main-btn mob_btn" data-toggle="modal" data-target="#Contacts" href="#">Контакты</a>
+						<i data-toggle="modal" data-target="#Menu" class="open_menu fa fa-bars" aria-hidden="true"></i>
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-6 col-sm-8 col-8">
 						<img src="img/logo.svg" alt="TazaHome">
 					</div>
-					<div class="col-xl-9 col-lg-9">
-						<ul>
+					<div class="col-xl-9 col-lg-9 col-md-0">
+						<ul class="pc_menu">
 							<li><a href="#">Главная</a></li>
 							<li><a href="#">О нас</a></li>
 							<li><a href="#">Наше оборудование</a></li>
-							<li><a class="main-btn" href="#">Контакты</a></li>
+							<li><a class="main-btn" data-toggle="modal" data-target="#Contacts" href="#">Контакты</a></li>
 						</ul>				
 					</div>
 				</div>
@@ -37,17 +43,18 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-12 text-center">
-					<h1>КАЧЕСТВЕННАЯ ПРОЧИСТКА КАНАЛИЗАЦИИ<BR>БЕСПЛАТНЫЙ ВЫЕЗД УЖЕ СЕГОДНЯ 
+					<h1>КАЧЕСТВЕННАЯ ПРОЧИСТКА КАНАЛИЗАЦИИ БЕСПЛАТНЫЙ ВЫЕЗД УЖЕ СЕГОДНЯ 
 					С ГАРАНТИЕЙ</h1>
-					<button class="main-btn">Оставить заявку</button>
+					<button class="main-btn" data-toggle="modal" data-target="#Feedback">Оставить заявку</button>
 				</div>
 			</div>
 		</div>
+
 	</section>
 	<section>
 		<div class="container">
 				<div class="row">
-					<div class="col-xl-8 offset-xl-2">
+					<div class="col-xl-8 offset-xl-2 col-md-10 offset-md-1 col-sm-12">
 						<div class="services">
 							<h2 class="text-center">Мы предоставляем полный спектр услуг<br>по прочистке канилизации</h2>
 							<div class="services-slider">
@@ -79,40 +86,103 @@
 	<h2 class="text-center">ПРОБЛЕМЫ С КАНАЛИЗАЦИЕЙ? РЕШИМ!</h2>
 	<div class="container">
 			<div class="row text-center">
-				<div class="item col-xl-3">
-					<div class="img-wrapper">
-						<img src="img/Bystro.svg" alt="Быстро">
+					<div class="item col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6">
+						<div class="img-wrapper">
+							<img src="img/Bystro.svg" alt="Быстро">
+						</div>
+						<p>Быстро</p>
 					</div>
-					<p>Быстро</p>
-				</div>
-				<div class="item col-xl-3">
-					<div class="img-wrapper">
-						<img src="img/Kachestvo.svg" alt="Качественно">
+					<div class="item col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6">
+						<div class="img-wrapper">
+							<img src="img/Kachestvo.svg" alt="Качественно">
+						</div>
+						<p>Качественно</p>
 					</div>
-					<p>Качественно</p>
-				</div>
-				<div class="item col-xl-3">
-					<div class="img-wrapper">
-						<img src="img/Nadejno.svg" alt="Надежно">
+					<div class="item col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6">
+						<div class="img-wrapper">
+							<img src="img/Nadejno.svg" alt="Надежно">
+						</div>
+						<p>Надежно</p>
 					</div>
-					<p>Надежно</p>
-				</div>
-				<div class="item col-xl-3">
-					<div class="img-wrapper">
-						<img src="img/Dostupno.svg" alt="Доступно">
+					<div class="item col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6">
+						<div class="img-wrapper">
+							<img src="img/Dostupno.svg" alt="Доступно">
+						</div>
+						<p>Доступно</p>
 					</div>
-					<p>Доступно</p>
-				</div>
 			</div>
 		</div>	
 </section>
 
 <footer class="text-center">
-	<p>Copyright TazaHome © 2018</p>
+	<p>© 2018 TazaHome. Все права защищены</p>
 </footer>
+
+<div class="modal fade" id="Contacts" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenter" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h3 class="modal-title" id="exampleModalCenter">Контакты</h3>
+				<small>Нажмите на ссылку для активации</small>
+				<button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			</div>
+			<div class="modal-body">
+				<p><img src="img/phone.svg" alt=""><a href="tel:+7 (707) 889 59 70">+7 707 889 59 70</a></p>
+				<p><img src="img/whatsapp.svg" alt=""><a href="https://wa.me/+77017798014">+7 701 779 80 14</a></p>
+				<p><img src="img/instagram.svg" alt=""><a href="https://www.instagram.com/taza_home/">@taza_home</a></p>
+				<p><img src="img/mail (2).svg" alt=""><a href="mailto:ekey70@mail.ru?subject=Заявка на прочистку">ekey70@mail.ru</a></p>
+				<BR>
+				<h4>Режим работы:</h4>
+				<p>9:00-20:00 и без выходных</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="Feedback" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenter" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h3 class="modal-title" id="exampleModalCenter">Заявка</h3>
+				<button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			</div>
+			<div class="modal-body">
+				<form action="telegram.php" method="GET">
+					<input type="text" name="user_name" placeholder="Ваше имя">
+					<input type="text" name="user_phone" placeholder="Ваш номер телефона">
+					<textarea name="user_problem" cols="30" rows="10" placeholder="Опишите проблему, кратко"></textarea>
+					<button type="submit" class="main-btn feedback-btn">Отправить заявку</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="Menu" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenter" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h3 class="modal-title" id="exampleModalCenter">Меню</h3>
+				<button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			</div>
+			<div class="modal-body">
+				<ul class="mob_menu">
+					<li><a href="#">Главная</a></li>
+					<li><a href="#">О нас</a></li>
+					<li><a href="#">Наше оборудование</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+				
 
 <script type="text/javascript" src="js/Jquery-min.js"></script>
 <script type="text/javascript" src="js/slick-min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
