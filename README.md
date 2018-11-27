@@ -31,3 +31,5 @@
 [Урок 16](https://butov-yuriy.github.io/Modul-5-Lesson-16/ "Урок 16") - Верстка слайдера для фотографий с использованием "Fotorama"
 
 [Урок 16. Практика часть 4](https://butov-yuriy.github.io/Modul-5-Lesson-16-Practice/ "Урок 16. Практика часть 4") - Верстаем блок с преимуществами на слайдере slick
+
+[Урок 17](https://butov-yuriy.github.io/Modul-5-Lesson-17/ "Урок 17") - Создание высплывающего окна с помощью Bootstrap
