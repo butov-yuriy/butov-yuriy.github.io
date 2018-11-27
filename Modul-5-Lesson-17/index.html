@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Создаем модальное окно</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<button class="btn btn-light btn-lg main-btn" data-toggle="modal" data-target="#Del_Modal">Удалить файл</button>
+
+<div class="modal fade" id="Del_Modal" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Запрос на подтверждение</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Вы действительно  хотите удалить файл?</p>
+        <p>Если вы его удалите, то он <strong>исчезнет навсегда</strong>, и никто не сможет его восстановить!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success left-btn" data-dismiss="modal">Нет, ни за что!</button>
+        <button type="button" class="btn btn-danger">Да, конечно</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/bootstrap.js"></script>
+	
+</body>
+</html>
