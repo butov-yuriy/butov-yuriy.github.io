@@ -33,3 +33,6 @@
 [Урок 16. Практика часть 4](https://butov-yuriy.github.io/Modul-5-Lesson-16-Practice/ "Урок 16. Практика часть 4") - Верстаем блок с преимуществами на слайдере slick
 
 [Урок 17](https://butov-yuriy.github.io/Modul-5-Lesson-17/ "Урок 17") - Создание высплывающего окна с помощью Bootstrap
+
+[Урок 17. Практика часть 5](https://butov-yuriy.github.io/Modul-5-Lesson-17-Practice/ "Урок 16. Практика часть 5") - Верстаем свое модальное окно с использованием js кода
+
