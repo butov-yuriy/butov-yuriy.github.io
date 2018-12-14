@@ -1,0 +1,61 @@
+@color-blue: #0bbaf0;
+.reg{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+}
+.bold{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+}
+
+body{
+	background: url(../img/bg.jpg) repeat;
+	font-size: 10px;
+	.reg();
+}
+
+.main{
+	h1{
+		margin: 4rem 0 4rem;
+		.bold();
+		font-size: 2.5rem;
+		line-height: 0.8;
+		text-transform: uppercase;
+		color: @color-blue;
+		span{
+			font-size: 1.5rem;
+			.reg();
+		}
+	}
+	&-card{
+		position: relative;
+		border: 4px solid rgba(0,0,0,.125);
+		border-radius: 15px;
+		margin-top: 3.7rem;
+		&-header{
+			position: absolute;
+			left: 50%;
+			top: 0;
+			transform: translateX(-50%) translateY(-50%);
+			width: 103%;
+			padding: 0.8rem 0 0.5rem;
+   background-color: @color-blue;
+   border: 0;
+   & button{
+   	color: #fff;
+   	font-size: 1.2rem;
+   	&:hover, &:focus{
+   		text-decoration: none;
+   		color: #fff;
+   		cursor: pointer;
+   	}
+   }
+		}
+		&-body{
+			padding: 2.5rem 1rem;
+			text-align: left;
+			font-size: 1rem;
+		}
+	}
+
+}
