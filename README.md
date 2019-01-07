@@ -34,10 +34,12 @@
 
 [Урок 17](https://butov-yuriy.github.io/Modul-5-Lesson-17/ "Урок 17") - Создание высплывающего окна с помощью Bootstrap
 
-[Урок 17. Практика часть 5](https://butov-yuriy.github.io/Modul-5-Lesson-17-Practice/ "Урок 16. Практика часть 5") - Верстаем свое модальное окно с использованием js кода
+[Урок 17. Практика часть 5](https://butov-yuriy.github.io/Modul-5-Lesson-17-Practice/ "Урок 17. Практика часть 5") - Верстаем свое модальное окно с использованием js кода
 
 [Урок 18. Аккордеон](https://butov-yuriy.github.io/Modul-5-Lesson-18/accordion/ "Урок 18. Аккордеон") - Создание эффекта аккордион с помощью Bootstrap
 
 [Урок 18. Табы](https://butov-yuriy.github.io/Modul-5-Lesson-18/tabs/ "Урок 18. Табы") - Создание табов (вкладок) с помощью Bootstrap
 
+[Урок 18. Практика часть 6](https://butov-yuriy.github.io/Modul-5-Lesson-18-Practice/ "Урок 18. Практика часть 6") - Верстаем блок с ценами
 
+[Урок 19. Анимация](https://butov-yuriy.github.io/Modul-6-Lesson-19/tabs/ "Урок 19. Анимация") - Анимирование элементов на сайте с помощью animate.css и wow.js
