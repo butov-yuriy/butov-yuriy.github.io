@@ -1,0 +1,127 @@
+body{
+	font-size: 10px;
+	background: url('../img/bg.png');	
+ &:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(transparent, #000000);
+  z-index: 2;
+ }
+}
+.container{
+	display: block;
+	position: relative;
+	width: 600px;
+	z-index: 3;
+	margin-top: 4rem;
+}
+
+.main{
+	position: relative;
+	&-content{
+		display: block;
+		width: 110%;
+		transform: translateX(-5%);
+		background: -webkit-linear-gradient(left, rgba(4,148,191,1) 0%, rgba(3,166,220,1) 100%);
+		border-radius: 0.25rem;
+		padding: 1.5rem;
+		&-item{
+			width: 100%;
+			height: 100%;
+			border-radius: 5px;
+			background: #000;
+			padding: 2rem;
+			& a{
+				display: block;
+				margin: 2rem;
+				font-size: 1rem;
+				color: #c51f03;
+			}
+			& button{
+				display: block;
+				position: absolute;
+				right: -20px;
+				bottom: 3rem;
+				border: 0;
+				font-size: 2rem;
+				background: radial-gradient(#cf2303, #7f0501);
+				color: #fff;
+				padding: 0 2rem;
+				cursor: pointer;
+				outline: none;
+				&::after{
+					content: '';
+					position: absolute;
+					width: 0;
+					height: 0;
+					bottom: -20px;
+					right: 0;
+					border-top: 20px solid #570300; 
+					border-right: 20px solid transparent;	
+					z-index: -9999;
+				}
+			}
+			& label{
+				cursor: pointer;
+				margin-left: -1.5rem;
+				font-size: 1.2rem;
+				font-weight: bold;
+			}
+			& input{
+				background: url('../img/bg-input.png');
+				width: 100%;
+				display: block;
+				font-size: 2rem;
+				padding: 0 1.5rem;
+				margin-top: 2.5rem;
+				line-height: 2;
+				border: 0;
+				border-radius: 5px;
+				box-shadow: 0px 0px 15px 0px #000000 inset;
+				color: #fff;
+				&:focus{
+					outline: none;
+				}
+				&::placeholder{
+					color: #fff;
+				}
+			}
+		}
+	}
+}
+
+#check1{
+	display: inline-block;
+	margin: 0 2rem;
+	width: 1rem;
+	height: 1rem;
+	box-shadow: 0 !important;
+	cursor: pointer;
+}
+.nav{
+	&-tabs{
+		border: 0;
+	}
+	&-link{
+		background: #fff;
+		font-size: 1.8rem;
+		line-height: 1.4;
+		margin-right: 1rem;
+		padding: 0 2rem;
+		color: #000;
+		&:hover{
+			color: #000;
+		}
+		&.active{
+			background: #0494bf !important;
+			color: #fff !important;
+			border: 0;
+			text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+		/**	box-shadow: 0px 1px 2px 0px #ffffff inset;*/
+		}
+ }
+}
