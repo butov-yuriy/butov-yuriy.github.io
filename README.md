@@ -45,3 +45,5 @@
 [Урок 19. Анимация](https://butov-yuriy.github.io/Modul-6-Lesson-19/tabs/ "Урок 19. Анимация") - Анимирование элементов на сайте с помощью animate.css и wow.js
 
 [Урок 19. Практика часть 7](https://butov-yuriy.github.io/Modul-6-Lesson-19-Practice/ "Урок 19. Практика часть 7") - Верстаем блок с отзывами используя fotorama и slick
+
+[Урок 20. Видео-фон на сайте](https://butov-yuriy.github.io/Modul-6-Lesson-20/ "Урок 20. Видео-фон на сайте") - Добавление видео-фона на сайт с использование библиотеки vide.js
