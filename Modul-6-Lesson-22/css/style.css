@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.map {
+  width: 100%;
+  position: absolute;
+}
+.contacts-block {
+  background: #c60b0b;
+  height: 550px;
+  text-align: center;
+  padding: 100px 40px;
+  color: #fff;
+}
+.contacts h2 {
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+.contacts p {
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+.contacts a {
+  text-decoration: underline;
+  color: #fff;
+}
+.footer {
+  background: #fff;
+  height: 100px;
+  width: 100%;
+  border-bottom: solid 1px #c60b0b;
+}
+.footer-company {
+  padding-top: 15px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.footer-company img {
+  float: left;
+  margin-right: 20px;
+}
+.footer-sert {
+  padding-top: 25px;
+  color: #666;
+  text-align: center;
+}
+.footer-contacts {
+  font-size: 14px;
+  padding-top: 15px;
+  line-height: 20px;
+}
+.footer-contacts_phone {
+  font-size: 22px;
+  font-weight: 600;
+}
